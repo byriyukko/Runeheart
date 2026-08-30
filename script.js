@@ -12,12 +12,19 @@
     playPauseBtn.addEventListener("click", () => {
         if (audio.paused) {
             audio.play();
-            playPauseBtn.textContent = "⏸";
         } else {
             audio.pause();
-            playPauseBtn.textContent = "▶";
         }
     });
+
+    audio.addEventListener("play", () => {
+        playPauseBtn.textContent = "||"
+    });
+
+    audio.addEventListener("pause", () => {
+    playPauseBtn.textContent = "▶";
+});
+
      volumeSlider.addEventListener("input", () => {
         audio.volume = volumeSlider.value;
     });
