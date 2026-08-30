@@ -150,6 +150,9 @@ h1 {
     -webkit-text-stroke: 0.5px #3a3026;  
 }
 
+.interest {
+    font-family: 'DS';
+}
 
 .intro {
     position:absolute;
