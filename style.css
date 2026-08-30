@@ -1,0 +1,334 @@
+
+@font-face {
+    font-family: 'IMFELL' ;
+    src: url('IMFeENsc.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'CORM' ;
+    src: url('Cormorant-Bold.woff2') format('opentype');
+}
+@font-face {
+    font-family: 'DS' ;
+    src: url('EBGaramond-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DS1' ;
+    src: url('EBGaramond-Medium.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DSI';
+    src: url('EBGaramond-RegularItalic.ttf') format('opentype');
+}
+
+.webtitle {
+   color: #ecdab5;
+    font-family: 'DS';
+    font-size: 90px;
+    text-shadow: 0 3px 2px rgba(58, 48, 38, 0.45);
+    text-align: center;
+    padding:0;
+    margin:0;
+
+}
+
+
+.audio-controls {
+     display: flex;
+     flex-direction: column;
+  align-items: center;   
+  justify-content: center; 
+  border: none;
+  background: transparent;
+  gap: 2px; 
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+
+.musictitle {
+    font-family: 'DS';
+    color:#d8cdba;
+    -webkit-text-stroke: 0.3px #3a3026;
+     margin: -2px 0 0 0;
+}
+
+
+
+#play-pause-btn {
+  background: none;
+  color: #ebcd96;
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  display: inline-flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#play-pause-btn:hover {
+     color: #d0a450;
+}
+
+
+#volumeSlider {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 300px;
+    height:3px;
+    background:#280f0280;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    
+}
+
+
+#volumeSlider::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height:10px;
+    background:#dab971ce;
+    border-radius: 40px;
+}
+
+#audioProgress {
+ appearance: none;
+    width: 300px;
+    height:3px;
+    background:#280f0280;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+#audioProgress::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height:10px;
+    background:#dab971ce;
+    border-radius: 40px;
+}
+
+.volume-icon {
+    color:#ebcd96;
+    width: 18px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(51, 42, 32, 0.4)),
+    url('fftactics_art.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+
+h1 {
+    color: #ecdab5;
+    font-family: 'DS';
+    font-size: 40px;
+    padding: 25px 40px 5px; 
+    margin:0;
+    -webkit-text-stroke: 0.5px #3a3026;  
+}
+
+
+.intro {
+    position:absolute;
+    top: 349px;
+    left: 10px;
+
+    border: 5px ridge #3d2c0f;
+    width: 180px;
+    background-color: #d9cbaf;
+    padding: 20px;
+    margin-left:50px;
+      box-shadow:
+        0 0 0 1px #222,
+        0 4px 12px rgba(0, 0, 0, 0.5);
+    
+}
+
+.Authorpic {
+    width: 180px;
+    height: 190px;
+}
+
+.author {
+    text-align: center;
+     color: #4d3110f8;
+     font-size: large;
+    font-family: 'DS';   
+    margin-bottom: 2px;
+}
+
+.descrip {
+     font-family: 'DS1';
+     text-align: justify;
+     color:#4d3110f8;
+     margin-top: 0px;  
+}
+
+.name1 {
+    display:block;
+    width:150px;
+    height:35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin:auto;
+}
+
+#content-box {
+    font-family: 'DS1';
+    width: 70%;
+    min-height: 300px;
+    margin: 20px 70px 20px 300px;
+    margin-left: 300px;
+    margin-right: 70px;
+    border: 5px ridge #3d2c0f;
+    background-color: rgba(226, 196, 166, 0.796);
+    padding: 30px;
+    box-shadow:
+        0 0 0 1px #222,
+        0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    display: none;
+}
+
+.works-galleria {
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+
+
+#home {
+    display: block;
+    font-size: 25px;
+    color: #291604e6;
+    -webkit-text-stroke: 0.5px #3a3026;
+}
+
+#about {
+    font-family: 'DS1';
+    color:#291604e6;
+    font-size: 25px;
+       -webkit-text-stroke: 0.5px #3a3026;
+   
+}
+
+#riyu {
+    font-family: 'DS';
+    font-size: 25px;
+}
+
+#latin {
+    font-family: 'DSI';
+}
+
+
+#works {
+    font-family: 'DS1';
+    font-size: 25px;
+    color:#291604e6;
+     -webkit-text-stroke: 0.5px #3a3026;
+   
+}
+
+
+.popup {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    color: #ecdab5;
+    font-family: 'DS1';
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    color: #e0b455;
+}
+
+
+footer {
+     text-align: center;
+    margin-top: auto;
+    padding: 20px;
+     color: #c9bda7;
+    font-family: 'DS1';
+}
+
+#email {
+     -webkit-text-stroke: 0.2px #3a3026;
+     font-size: 22px;;
+}
+
+h3 {
+     color: #c9bda7;
+    font-family: 'DS1';
+    padding: 40px;  
+}
+
+#oeuvre {
+    font-size: 30px;
+}
+
+.genbio {
+    height: 420px;
+}
+
+.opus1 {
+    height: 420px;
+    width: 300px;
+}
+
+.opus2 {
+    height: 250px;
+    width: 250px;
+    margin-left: 15px;
+}
+
+.opus3 {
+    height: 420px;
+    width: 300px;
+}
+
+
+* {
+    cursor: url("cursor.png") 10 10, auto !important;
+}

@@ -1,0 +1,95 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Runeheart</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>And Thus, Thy Journey Begins</h1>
+        <h1 class="webtitle">Runeheart</h1>
+        <audio autoplay loop id="myLady">
+            <source src="祖堅 正慶 - My Lady.flac" type="audio/flac">
+        </audio>
+         <audio id="clicksound">
+        <source src="click.flac" type="audio/flac">
+    </audio>
+
+  <div class="audio-controls">
+     <p class="musictitle">My Lady - Masayoshi Soken</p>
+     <button id="play-pause-btn">II</button>
+        <input type="range" id="audioProgress" min="0" value="0" step="0.1">
+    
+    <span class="volume-icon">♬⋆.˚</span>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+  </div>
+       
+        <nav class="navbar">
+
+    <button id="homebtn" onclick="showPage('home')">Home</button>
+    <button id="aboutbtn" onclick="showPage('about')">About</button>
+    <button id="worksbtn" onclick="showPage('works')">Works</button>
+   
+</nav>
+<div id="content-box">
+<div id="home" class="content"> 
+    <h2>Home</h2>
+    <p>Welcome to Runeheart.</p>
+    <p>A collection of the author's opus, solace, and flair. </p>
+</div>
+
+<div id="about" class="content">
+    <h2>About</h2>
+    <p id="riyu">Riyukko</p>
+    <p id="latin">Qvalis Artifex Pereo</p>
+    <p>“The weight of reality clashes with the dream of living for art, blowing out the flames.
+        Yet, an ember stubbornly remains. I do wonder how long this persistence burns.”</p>
+    <p>—The lamentations of a second-year college student.</p>
+</div>
+
+<div id="works" class="content">
+    <h2>Works</h2>
+    <p id="oeuvre">Oeuvre</p>
+    <div class ="works-galleria">
+        <div class="work">
+    <img src="nice.png" alt="nice" class="opus1">
+    <img src="toramart.jpeg" alt ="toramart" class ="opus2">
+    <img src="fanart.jpeg" alt="fanart" class ="opus3">
+    </div>
+
+    <div class="work">
+    <iframe
+        src="GENBIO-COVER-PP.pdf" class="genbio">
+    </iframe>
+    </div>
+    </div>
+</div>
+</div>
+
+
+    
+<div class="intro">
+    <img src="Author.png" alt="Author" class="Authorpic">
+        <p class="author">About the Author</p>
+      <img src="Riyukko.png" alt="Riyukko" class="name1">
+        <p class ="descrip">With a penchant for whimsy and chaos, her love for art and literature bleeds into everything she touches.</p>
+
+        </div>
+
+
+
+
+
+
+ <footer>
+        <h3>Runeheart by Riyukko</h3>
+        <p id="email">runeheart.dev@gmail.com<br>
+            github.com/byriyukko
+        </p>
+       
+        </footer>
+
+    </body>
+    </html>
