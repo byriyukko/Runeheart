@@ -274,7 +274,7 @@ h1 {
 }
 
 #ending {
-     font-family: 'DSBI';
+     font-family: 'DSBI' !important;
     font-size: 23px !important;
 
 }
