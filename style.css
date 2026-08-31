@@ -22,6 +22,11 @@
     src: url('EBGaramond-RegularItalic.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'DSBI';
+    src: url('EBGaramond-BoldItalic.tff') format('truetype');
+}
+
 .webtitle {
    color: #ecdab5;
     font-family: 'DS';
@@ -265,9 +270,14 @@ h1 {
 
 #myquote {
     font-family: 'DS';
-    font-size: 28px !important;
+    font-size: 23px !important;
 }
 
+#ending {
+     font-family: 'DSBI';
+    font-size: 23px !important;
+
+}
 #works {
     font-family: 'DS1';
     font-size: 25px;
