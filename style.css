@@ -152,11 +152,11 @@ h1 {
 
 #interest {
     font-family: 'DS'!important;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 0;
 }
 
-#interest + p {
+#interest + #listoflikes {
     margin-top: 0;
 }
 
@@ -263,6 +263,9 @@ h1 {
     font-family: 'DSI';
 }
 
+#myquote {
+    font-size: 27px;
+}
 
 #works {
     font-family: 'DS1';
