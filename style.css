@@ -222,8 +222,6 @@ h1 {
     width: 70%;
     min-height: 0;
     margin: 20px 70px 20px 300px;
-    margin-left: 300px;
-    margin-right: 70px;
     border: 5px ridge #3d2c0f;
     background-color: rgba(226, 196, 166, 0.796);
     padding: 30px;
@@ -285,7 +283,7 @@ h1 {
     font-family: 'DS1';
     font-size: 25px;
     color: #291604e6;
-    -webkit-text-stroke: 0.5px #3a3026;
+    -webkit-text-stroke: 0.2px #3a3026;
    
 }
 
@@ -358,6 +356,22 @@ h3 {
     width: 300px;
 }
 
+.writing {
+     height: 420px;
+    border:none;
+    margin:0 auto;
+    display: block;
+}
+
+.categorywork {
+    font-family: 'DS';
+    color: #4d3110f8;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+
+}
 
 * {
     cursor: url("cursor.png") 10 10, auto !important;
