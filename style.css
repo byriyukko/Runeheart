@@ -363,6 +363,10 @@ h3 {
     display: block;
 }
 
+.worktitle {
+    text-align: center;
+}
+
 .categorywork {
     font-family: 'DS';
     color: #4d3110f8;
