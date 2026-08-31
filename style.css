@@ -1,25 +1,25 @@
 
 @font-face {
     font-family: 'IMFELL' ;
-    src: url('IMFeENsc.ttf') format('opentype');
+    src: url('IMFeENsc.ttf') format('truetype');
 }
 @font-face {
     font-family: 'CORM' ;
-    src: url('Cormorant-Bold.woff2') format('opentype');
+    src: url('Cormorant-Bold.woff2') format('woff2');
 }
 @font-face {
     font-family: 'DS' ;
-    src: url('EBGaramond-Bold.ttf') format('opentype');
+    src: url('EBGaramond-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'DS1' ;
-    src: url('EBGaramond-Medium.ttf') format('opentype');
+    src: url('EBGaramond-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'DSI';
-    src: url('EBGaramond-RegularItalic.ttf') format('opentype');
+    src: url('EBGaramond-RegularItalic.ttf') format('truetype');
 }
 
 .webtitle {
@@ -156,7 +156,7 @@ h1 {
     margin-bottom: 0;
 }
 
-#interest + #listoflikes {
+#listoflikes {
     margin-top: 0;
 }
 
