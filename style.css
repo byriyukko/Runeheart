@@ -133,8 +133,7 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(51, 42, 32, 0.4)),
     url('fftactics_art.jpg');
@@ -311,7 +310,7 @@ h1 {
 
 footer {
      text-align: center;
-    margin-top: auto;
+
     padding: 20px;
      color: #c9bda7;
     font-family: 'DS1';
@@ -354,6 +353,5 @@ h3 {
 
 
 * {
-    box-sizing: border-box;
     cursor: url("cursor.png") 10 10, auto !important;
 }
