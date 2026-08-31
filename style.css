@@ -135,9 +135,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(51, 42, 32, 0.4)),
-    url('fftactics_art.jpg');
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(51, 42, 32, 0.4)),
+        url('fftactics_art.jpg');
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -170,7 +172,7 @@ h1 {
 }
 
 .intro {
-    position:absolute;
+    position: absolute;
     top: 349px;
     left: 10px;
 
@@ -178,11 +180,12 @@ h1 {
     width: 180px;
     background-color: #d9cbaf;
     padding: 20px;
-    margin-left:50px;
-      box-shadow:
+    margin-left: 50px;
+
+    box-shadow:
         0 0 0 1px #222,
         0 4px 12px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 .Authorpic {
@@ -215,9 +218,9 @@ h1 {
 }
 
 #content-box {
-    font-family: 'DS1';
+      font-family: 'DS1';
     width: 70%;
-    min-height: 250px;
+    min-height: 0;
     margin: 20px 70px 20px 300px;
     margin-left: 300px;
     margin-right: 70px;
@@ -281,8 +284,8 @@ h1 {
 #works {
     font-family: 'DS1';
     font-size: 25px;
-    color:#291604e6;
-     -webkit-text-stroke: 0.5px #3a3026;
+    color: #291604e6;
+    -webkit-text-stroke: 0.5px #3a3026;
    
 }
 
