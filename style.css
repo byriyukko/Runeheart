@@ -153,6 +153,15 @@ h1 {
 #interest {
     font-family: 'DS'!important;
     font-size: 25px;
+    margin-bottom: 0;
+}
+
+#interest + p {
+    margin-top: 0;
+}
+
+#additionalabout {
+    text-justify: auto;
 }
 
 .intro {
