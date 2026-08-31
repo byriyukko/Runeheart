@@ -264,7 +264,7 @@ h1 {
 }
 
 #myquote {
-    font-size: 200px;
+    font-size: 200px !important;
 }
 
 #works {
