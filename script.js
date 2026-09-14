@@ -1,6 +1,6 @@
 
 
-
+            const popupButton = document.querySelector(".Pop button");
             const audio = document.getElementById("myLady");
             const playPauseBtn = document.getElementById("play-pause-btn");
             const volumeSlider = document.getElementById("volumeSlider");
@@ -11,6 +11,12 @@
     function byePop() {
         document.querySelector(".popupMes").style.display = "none";
 }
+    const popupButton = document.querySelector(".Pop button");
+    popupButton.addEventListener("click", () => {
+    click.currentTime = 0;
+    click.play();
+});
+
     
     playPauseBtn.addEventListener("click", () => {
         if (audio.paused) {
