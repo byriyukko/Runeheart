@@ -43,12 +43,18 @@
     color: #21190a;
     padding: 30px;
     text-align: center;
-    border: 1px ridge #21190a;
+    border: 5px ridge #3d2c0f;
     width: 300px;
+    box-shadow:
+        0 0 0 1px #222,
+        0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .Pop button {
-    border: 1px solid #21190a;
+    font-family: 'DS';
+    color: #21190a;
+    background: #c2a978;
+    border: 5px ridge #3d2c0f;
     margin-top: 15px;
     padding: 8px 20px;
     cursor: pointer;
