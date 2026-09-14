@@ -11,7 +11,6 @@
     function byePop() {
         document.querySelector(".popupMes").style.display = "none";
 }
-    const popupButton = document.querySelector(".Pop button");
     popupButton.addEventListener("click", () => {
     click.currentTime = 0;
     click.play();
