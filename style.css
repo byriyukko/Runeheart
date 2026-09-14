@@ -60,6 +60,10 @@
     cursor: pointer;
 }
 
+.Pop button:hover {
+    color: #a68c5a;
+}
+
 .webtitle {
    color: #ecdab5;
     font-family: 'DS';
