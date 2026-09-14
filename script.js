@@ -6,9 +6,12 @@
             const volumeSlider = document.getElementById("volumeSlider");
             const audioProgress = document.getElementById("audioProgress");
             const click = document.getElementById("clicksound");
-            const navbuttons = document.querySelectorAll("#homebtn, #aboutbtn, #worksbtn");                     
-    
+            const navbuttons = document.querySelectorAll("#homebtn, #aboutbtn, #worksbtn");   
 
+    function byePop() {
+        document.getElementById("popupMes").style.display = "none";
+}
+    
     playPauseBtn.addEventListener("click", () => {
         if (audio.paused) {
             audio.play();
