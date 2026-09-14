@@ -381,3 +381,20 @@ h3 {
     cursor: url("cursor.png") 10 10, auto !important;
 }
 
+@media screen and (max-width: 600px) {
+    #content-box {
+        width: auto;
+        margin: 20px;
+    }
+
+    .intro {
+        position: static;
+        margin: 20px auto;
+    }
+
+    .works-galleria {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
