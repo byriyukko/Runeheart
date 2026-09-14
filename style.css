@@ -30,7 +30,7 @@
 .popupMes {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,15 +38,17 @@
 }
 
 .Pop {
-    background: #1a1a1a;
-    color: white;
+    font-family: 'DS1';
+    background: #d4bc8e;
+    color: #21190a;
     padding: 30px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px ridge #21190a;
     width: 300px;
 }
 
 .Pop button {
+    border: 1px solid #21190a;
     margin-top: 15px;
     padding: 8px 20px;
     cursor: pointer;
