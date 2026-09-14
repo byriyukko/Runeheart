@@ -27,7 +27,7 @@
     src: url('EBGaramond-BoldItalic.ttf') format('truetype');
 }
 
-#popupMes {
+.popupMes {
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.7);
