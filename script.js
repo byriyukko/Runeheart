@@ -9,7 +9,7 @@
             const navbuttons = document.querySelectorAll("#homebtn, #aboutbtn, #worksbtn");   
 
     function byePop() {
-        document.getElementById("popupMes").style.display = "none";
+        document.getElementById(".popupMes").style.display = "none";
 }
     
     playPauseBtn.addEventListener("click", () => {
